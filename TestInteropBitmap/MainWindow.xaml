@@ -9,7 +9,7 @@
     <DockPanel>
         <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal">
             <Button Content="Start" Margin="2" Command="{Binding Start}" />
-            <Button Content="Stop" Margin="2" />
+            <Button Content="Stop" Margin="2" Command="{Binding Stop}"  />
             <TextBlock Text="Адрес камеры: "/>
             <TextBox Margin="2" Width="200" Text="{Binding Url}"/>
             <TextBlock Text="{Binding State}"/>
